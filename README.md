@@ -42,7 +42,13 @@ graph TD;
 | `size: integer`     | number of test scores |  |
 | `file: text file`   | writes results to a file | clear formatting |
 | `return: void`      | outputs formatted data | writes to results.txt |
-
+***
+| `main`    |               |  Member 1  |
+| ------------------ | ------------- | ---------- |
+| `scores: pointer`   | formats and displays results on screen |  |
+| `size: integer`     | number of test scores |  |
+| `file: text file`   | writes results to a file | clear formatting |
+| `return: void`      | outputs formatted data | writes to results.txt |
 ## Core Functionalities
 - **Dynamic Memory Allocation:**
   - Use `new` and `delete` to allocate and free memory for test scores dynamically.
