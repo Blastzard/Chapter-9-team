@@ -1,4 +1,4 @@
-void sortScores(int* scores, int numScores) {
+void sortScores(double* scores, int numScores) {
     for (int i = 0; i < numScores - 1; i++) {
         for (int j = i + 1; j < numScores; j++) {
             if (*(scores + i) > *(scores + j)) {

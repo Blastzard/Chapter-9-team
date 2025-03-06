@@ -1,4 +1,5 @@
-void displayResults(int* scores, int numScores, double average) {
+#include <iostream>
+void displayResults(double* scores, int numScores, double average) {
     std::cout << "Sorted Scores: ";
     for (int i = 0; i < numScores; i++) {
         std::cout << *(scores + i) << " ";
